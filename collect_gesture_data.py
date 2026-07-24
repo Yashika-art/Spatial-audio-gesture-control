@@ -1,5 +1,5 @@
 """
- Gesture data collection tool
+Gesture data collection tool
 Captures hand landmarks from your webcam and saves them to a CSV file
 with a label, so you can later train a classifier on this data.
 
