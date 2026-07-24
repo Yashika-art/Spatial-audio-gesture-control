@@ -33,7 +33,7 @@ This project lets you control spatial audio using only your hands and a standard
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/gesture-spatial-audio.git
+git clone https://github.com/<Yashika_art>/spatial-audio-gesture-control.git
 cd gesture-spatial-audio
 
 # Create a virtual environment
@@ -61,7 +61,7 @@ Trains a KNN classifier on the collected data and saves it as `gesture_model.pkl
 
 ### 3. Run the live application
 ```bash
-python step8_two_hand.py
+python spatial_audio_app.py
 ```
 Use headphones for the best spatial audio experience. Hold up one or both hands to control independent sound sources.
 
@@ -70,7 +70,7 @@ Use headphones for the best spatial audio experience. Hold up one or both hands 
 ```
 ├── collect_gesture_data.py     # Gesture training data collection tool
 ├── train_gesture_model.py      # Trains and evaluates the gesture classifier
-├── step8_two_hand.py           # Main application (two-hand spatial audio + ML gestures)
+├── spatial_audio_app.py        # Main application (two-hand spatial audio + ML gestures)
 ├── gesture_data.csv            # Collected training data (generated)
 ├── gesture_model.pkl           # Trained classifier (generated)
 └── README.md
