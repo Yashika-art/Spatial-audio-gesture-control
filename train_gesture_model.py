@@ -1,5 +1,5 @@
 """
-Day 2: Train the gesture classifier
+ Train the gesture classifier
 Loads gesture_data.csv (collected in Day 1), trains a classifier on the
 hand landmark features, evaluates it, and saves the trained model to
 disk so it can be loaded later inside the live spatial audio app.
