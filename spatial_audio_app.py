@@ -1,5 +1,4 @@
-"""
-Step 8: Two-hand, two-source spatial audio
+""" Two-hand, two-source spatial audio
 Each hand is now a fully independent sound source:
   - Its own pan (left-right), elevation (brightness), distance (volume)
   - Its own ML gesture recognition controlling its own mute state
