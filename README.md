@@ -33,8 +33,8 @@ This project lets you control spatial audio using only your hands and a standard
 
 ```bash
 # Clone the repository
-git clone https://github.com/<Yashika_art>/spatial-audio-gesture-control.git
-cd gesture-spatial-audio
+git clone https://github.com/Yashika_art/spatial-audio-gesture-control.git
+cd spatial-audio-gesture-control
 
 # Create a virtual environment
 python -m venv venv
